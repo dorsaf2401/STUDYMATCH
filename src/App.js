@@ -3261,7 +3261,7 @@ const startOrCreateChat = (name, type, avatar = null) => {
           </main>
 
           {/* BARRE DE NAVIGATION BASSE PARFAITEMENT POSITIONNÉE EN BAS DU TÉLÉPHONE */}
-{page !== 'auth' && page !== 'register' && (
+{page !== 'auth' && page !== 'register' && page !== 'forgot-password' && (
 <nav className="app-nav" style={{ flexShrink: 0 }}>            
 <button 
     onClick={() => { 
